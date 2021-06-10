@@ -5248,7 +5248,7 @@ main (int argc, char **argv)
   dt.gen (stdout, gimple);
 
   /* Finalize.  */
-  cpp_finish (r, NULL);
+  cpp_finish (r, NULL, NULL);
   cpp_destroy (r);
 
   delete operators;
